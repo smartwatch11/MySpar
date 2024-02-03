@@ -9,7 +9,7 @@ struct BuyView: View {
     
     var body: some View {
         VStack {
-            Picker("What is your favorite color?", selection: $favoriteColor) {
+            Picker("Picker", selection: $favoriteColor) {
                 Text("Шт").tag(0)
                 Text("Кг").tag(1)
             }
